@@ -4,4 +4,6 @@ In order to predict Driver's Drowsiness, yawning can be considered as a preety g
 
 In order to detect yawning, the system needs to detect the face first and then extract the mouth region from it. Finally the extracted mouth region will be passed to trained model in order to detect wether there is yawn or not. 
 
-For face detection, DLIB's frontal face detector is used and then with help of Dlib's facial landmark detector the mouth region is extracted
+For face detection, DLIB's frontal face detector is used and then with help of Dlib's facial landmark detector the mouth region is extracted.
+
+(1) Mouth Region Detection module is created to extract mouth region.
