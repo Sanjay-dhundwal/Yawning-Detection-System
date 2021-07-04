@@ -19,5 +19,7 @@ After training these models on our final processed dataset , Models are saved as
 
 (5) Executable yawning detection code module contains the code for real time Yawning detection.  
      > First the video frames are taken from live cam footage using OpenCV.
+     
      > Then these frames are passed to the trained model for yawning detection.
+     
      > If yawning found for some continous frames, then with help of opencv "Yawning" is printed on the screen
