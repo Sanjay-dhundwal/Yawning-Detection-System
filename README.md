@@ -7,3 +7,7 @@ In order to detect yawning, the system needs to detect the face first and then e
 For face detection, DLIB's frontal face detector is used and then with help of Dlib's facial landmark detector the mouth region is extracted.
 
 (1) Mouth Region Detection module is created to extract mouth region.
+
+(2) Data PreProcessing module is created to pre-process the data before training process. Like in machine learning the data preprocessing is also important in Deep Learning. If we pass a good pre processed data for training the model, obviously the model will be trained good and accuracy will also increase
+
+(3)
