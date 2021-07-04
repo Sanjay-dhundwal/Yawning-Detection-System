@@ -8,6 +8,6 @@ For face detection, DLIB's frontal face detector is used and then with help of D
 
 (1) Mouth Region Detection module is created to extract mouth region.
 
-(2) Data PreProcessing module is created to pre-process the data before training process. Like in machine learning the data preprocessing is also important in Deep Learning. If we pass a good pre processed data for training the model, obviously the model will be trained good and accuracy will also increase
+(2) Data Preprocessing module is created to pre-process the data before training process. Like in machine learning the data preprocessing is also important in Deep Learning. If we pass a good preprocessed data for training the model, obviously the model will be trained good and accuracy will also increase. So, here in data preprocessing we have genrated a code which will crop the images of dataset and produce a new image dataset containing only mouth region images.
 
-(3)
+TRAINING Part: As yawning is not a regular event so, very few datasets are availabel on yawn. I have taken the dataset from Kaggel and produced new dataset using Data preprocessing module. Finally created two modles: CNN from scratch , VGG16 (pretrained on Imagenet data set) using transfer learing technique.
